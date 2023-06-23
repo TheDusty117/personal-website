@@ -13,7 +13,12 @@
       </div>
 
       <div class="col col-blu">
-        
+        <ul class="d-flex justify-content-between">
+          <li>button</li>
+          <li>button</li>
+          <li>button</li>
+          <li>button</li>
+        </ul>
       </div>
     </div>
     
@@ -32,6 +37,8 @@
   
   .section{
     background-color: #FF9678;
+    width: 100vw;
+    position: fixed;
     .col-salmon{
 
     }

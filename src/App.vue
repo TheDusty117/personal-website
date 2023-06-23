@@ -22,6 +22,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 body{
   background-color: rgb(107, 107, 107);
+  scroll-behavior: smooth;
 }
 
 
