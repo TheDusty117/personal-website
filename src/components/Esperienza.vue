@@ -49,7 +49,7 @@ completato nel Giugno 2023.
 
 
 .aside{
-  background-color: #FF9678;
+  // background-color: #FF9678;
   width: 50%;
   .montagne{
     width: 100%;
@@ -57,7 +57,7 @@ completato nel Giugno 2023.
 }
 
 .content{
-  background-color: #41436A;
+  // background-color: #41436A;
   
   min-height: 600px;
   width: 50%;

@@ -42,7 +42,7 @@
   height: 100%;
   background-color: #17274c;
   border-left: 80px solid #FF9678;
-  border-bottom: 330px solid transparent;
+  border-top: 330px solid transparent;
   box-sizing: border-box;
 }
 

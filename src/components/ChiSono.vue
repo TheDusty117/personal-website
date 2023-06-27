@@ -41,13 +41,25 @@
 //   min-height: 1000px;
 }
 
+.row{
+  // background: linear-gradient(
+  //   to right,
+  //   #41436A 0%,
+  //   #41436A 50%,
+  //   #FF9678 50%,
+  //   #FF9678 100%,
+
+  // );
+  
+}
+
 .aside{
-  background-color: #FF9678;
+  // background-color: #FF9678;
   // width: 40%;
 }
 
 .content{
-  background-color: #41436A;
+  // background-color: #41436A;
   min-height: 600px;
   // width: 60%;
   p{
