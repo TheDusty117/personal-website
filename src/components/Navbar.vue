@@ -3,12 +3,12 @@
 
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-5 mt-2">
-        <button style="--color:#41436A;--border:2px;--slant:.5em">Button</button>
+      <div class="btn-logo col-5 mt-2">
+        <button  style="--color:#41436A;--border:2px;--slant:.5em">Button</button>
       </div>
 
-      <div class="col-5">
-        <ul class="d-flex mt-2 gap-3">
+      <div class="col-sm-5">
+        <ul class="d-flex justify-content-between mt-2 gap-3 p-0">
           <li>
             <button style="--color:#41436A;--border:2px;--slant:.5em">Button</button>
           </li>
@@ -47,7 +47,7 @@ button {
   --slant: 0.7em;   /* control the slanted corners */
   --color: #37E8FC; /* the color */
   
-  font-size: 25px;
+  font-size: 15px;
   padding: 0.4em 1.2em;
   border: none;
   cursor: pointer;
@@ -86,14 +86,7 @@ button:active {
 
 
 
-body {
-  display:grid;
-  grid-auto-flow:column;
-  grid-gap:20px;
-  place-content:center;
-  margin:0;
-  height:100vh;
-}
+
 
 
 
@@ -111,6 +104,7 @@ body {
     background-color: #FF9678;
     width: 100vw;
     position: fixed;
+    z-index: 2;
     .col-salmon{
 
     }
@@ -120,5 +114,14 @@ body {
     }
 
   }
+
+
+  @media screen and (max-width: 650px) {
+
+    .btn-logo{
+      display: none;
+    }
+
+}
 
 </style>

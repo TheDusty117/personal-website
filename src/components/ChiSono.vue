@@ -73,6 +73,31 @@
 }
 
 
+
+@media screen and (max-width: 850px) {
+
+
+  .aside{
+    width: 100%;
+    background-color: #FF9678;
+  }
+
+  .content{
+    width: 100%;
+    background-color: #41436A;
+  }
+  
+  .double-color{
+ background: linear-gradient(180deg, #ff957800 40%, #41436a00 40%);
+
+  }
+
+
+}
+
+
+
+
 .chisono{
   width: 80%;
 }

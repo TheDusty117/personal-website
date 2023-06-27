@@ -16,7 +16,7 @@
       Hero,
       ChiSono,
       Esperienza,
-      Coloring,
+
     }
     
   }
