@@ -32,7 +32,7 @@
   width: 300px;
   position: absolute;
   top: 70px;
-  left: 40px;
+  left: 5%;
 }
 
 .onde2{
@@ -46,14 +46,14 @@
   width: 300px;
   position: absolute;
   top: 500px;
-  left: 400px;
+  left: 10%;
 }
 
 .onderosa1{
   width: 300px;
   position: absolute;
   top: 70px;
-  right: 180px;
+  right: 8%;
 }
 
 .onderosa2{
@@ -67,7 +67,7 @@
   width: 300px;
   position: absolute;
   top: 500px;
-  right: 400px;
+  right: 10%;
 }
 
 
@@ -96,7 +96,7 @@
 
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1300px) {
   .hero{
     background-image: url('../../public/images/HERO SMARTPHONE.png');
   }

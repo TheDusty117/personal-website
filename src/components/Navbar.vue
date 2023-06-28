@@ -2,21 +2,21 @@
 <div class="section">
 
   <div class="container">
-    <div class="row justify-content-between">
-      <div class="btn-logo col-5 mt-2">
+    <div class="row justify-content-between m-0">
+      <div class="btn-logo col-5">
         <button  style="--color:#41436A;--border:2px;--slant:.5em">Button</button>
       </div>
 
       <div class="col-sm-5">
-        <ul class="d-flex justify-content-between mt-2 gap-3 p-0">
+        <ul class="button-bar d-flex justify-content-sm-end gap-4 p-0 m-0">
           <li>
-            <button style="--color:#41436A;--border:2px;--slant:.5em">Button</button>
+            <button style="--color:#ff9578;--border:2px;--slant:.5em">Lavori</button>
           </li>
           <li>
-            <button style="--color:#41436A;--border:2px;--slant:.5em">Button</button>
+            <button style="--color:#ff9578;--border:2px;--slant:.5em">Contatti</button>
           </li>
           <li>
-            <button style="--color:#41436A;--border:2px;--slant:.5em">Button</button>
+            <button style="--color:#ff9578;--border:2px;--slant:.5em">CV</button>
           </li>
         </ul>
       </div>
@@ -90,6 +90,9 @@ button:active {
 
 
 
+
+
+
 .btn-custom{
   color: #41436A;
 
@@ -97,14 +100,18 @@ button:active {
 }
 
   .row{
-    height: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
+  .button-bar{
+    color: #ff957800;
+  }
   .section{
-    background-color: #FF9678;
-    width: 100vw;
+    background: linear-gradient(50deg, #ff9578 60%, #41436a 60%);
+    width: 100%;
     position: fixed;
-    z-index: 2;
+    z-index: 1;
     .col-salmon{
 
     }
@@ -116,10 +123,20 @@ button:active {
   }
 
 
-  @media screen and (max-width: 650px) {
-
+  @media screen and (max-width: 1000px) {
     .btn-logo{
       display: none;
+    }
+
+    .section{
+      background: #41436A;
+    }
+    .button-bar{
+      justify-content: space-between;
+    }
+
+    .col-sm-5{
+      width: 100%;
     }
 
 }
