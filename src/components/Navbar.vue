@@ -4,10 +4,14 @@
   <div class="container">
     <div class="row justify-content-between m-0">
       <div class="btn-logo col-5">
-        <button  style="--color:#41436A;--border:2px;--slant:.5em">Button</button>
+        <a href="#">
+          <img class="my-logo roseversion" src="../../public/images/rose-logo-GDP.png" alt="">
+          <img class="my-logo blueversion" src="../../public/images/logo-GDP.png" alt="">
+        </a>
+        <!-- <button  style="--color:#41436A;--border:2px;--slant:.5em">Button</button> -->
       </div>
 
-      <div class="col-sm-5">
+      <div class="col-5">
         <ul class="button-bar d-flex justify-content-sm-end gap-4 p-0 m-0">
           <li>
             <button style="--color:#ff9578;--border:2px;--slant:.5em">Lavori</button>
@@ -85,18 +89,20 @@ button:active {
 }
 
 
-
-
-
-
-
-
-
+.roseversion{
+  display: none;
+}
+.my-logo{
+  height: 40px;
+}
+.my-logo:hover{
+  transform: scale(1.2);
+  transition: transform .2s; /* Animation */
+  cursor: pointer;
+}
 
 .btn-custom{
   color: #41436A;
-
-
 }
 
   .row{
@@ -122,10 +128,22 @@ button:active {
 
   }
 
+  @media screen and (max-width: 577px) {
+    .btn-logo{}
+  }
+
 
   @media screen and (max-width: 1000px) {
-    .btn-logo{
+
+    .roseversion{
+      display: inline-block;
+    }
+
+    .blueversion{
       display: none;
+    }
+    .btn-logo{
+      // display: none;
     }
 
     .section{

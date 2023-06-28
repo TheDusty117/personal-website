@@ -8,6 +8,8 @@
     <!-- <img class="onderosa2" src="../../public/images/onde-rosa.png" alt=""> -->
     <img class="onderosa3" src="../../public/images/onde-rosa.png" alt="">
 
+    <img class="ondered" src="../../public//images/onde-red.png" alt="">
+
   </div>
 </template>
 
@@ -68,6 +70,13 @@
   position: absolute;
   top: 500px;
   right: 10%;
+}
+
+.ondered{
+  width: 200px;
+  position: absolute;
+  bottom: 22%;
+  right: 44%;
 }
 
 
@@ -153,6 +162,15 @@
 
 }
 
+
+@media screen and (max-width: 1300px) {
+
+  .ondered{
+    display: none;
+  }
+  
+}
+
 .onde,.onde2,.onde3,.onderosa1,.onderosa2,.onderosa3 {
   animation-name: spostamento;
   animation-duration: 4s;
@@ -171,6 +189,26 @@
     transform: translateX(0);
   }
 }
+
+.ondered{
+  animation-name: spostamento2;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spostamento2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 
 
 </style>
