@@ -33,7 +33,13 @@
 </template>
 
 <script>
-export default {};
+import Campominato from "./Campominato.vue";
+
+export default {
+  components: {
+    Campominato,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -41,13 +47,11 @@ export default {};
   background: linear-gradient(90deg, #ff9678 50%, #41436a 50%);
   //   min-height: 1000px;
 }
-
 .aside {
   background-color: #ff9678;
   // width: 40%;
   z-index: 4;
 }
-
 .content {
   // background-color: #41436A;
   min-height: 600px;
@@ -61,7 +65,6 @@ export default {};
     font-size: 18px;
   }
 }
-
 .elemento-animato {
   animation-name: ingrandisci-riduci;
   animation-duration: 7s; /* Durata totale dell'animazione */
@@ -107,14 +110,15 @@ export default {};
 .hammer {
   width: 25%;
   position: absolute;
-  top: 105px;
+  bottom: 405px;
   left: 45%;
 
-  animation: hammering 3s linear infinite;
+  animation: hammering 2.5s linear infinite;
 }
 
 .anvil {
   width: 30%;
+  position: relative;
   padding-top: 180px;
 }
 
@@ -134,5 +138,10 @@ export default {};
   100% {
     transform: rotate(0deg);
   }
+}
+
+//SEZIONE ESTETICA DEI LAVORI
+
+.project {
 }
 </style>
