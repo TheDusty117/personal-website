@@ -5,28 +5,25 @@
         <div class="aside col-6">
           <img
             class="chisono pt-5"
-            src="../../public/images/CHI SONO.png"
+            src="../../public/images/lavori-title-blu.png"
             alt=""
           />
         </div>
 
-        <div class="content col-6">
+        <div class="content col-6 forge-div">
           <div class="d-flex flex-wrap justify-content-center">
+            <img class="hammer" src="../../public/images/hammer.png" alt="" />
             <img
-              class="col-12 logopc pt-5 elemento-animato"
-              src="../../public/images/logo-pc.png"
+              class="anvil"
+              src="../../public/images/anvil-rose.png"
               alt=""
             />
+
             <p class="col-12 description">
-              Gabriele Di Passio è un Jr. Front End Web Developer, Graphic
-              Designer e Tech enthusiast del Frusinate. Gabriele persegue la sua
-              passione per il codice e per il design, cercando una continua
-              unione dei due mondi. Inizia il suo percorso come Graphic Designer
-              dal liceo, lavorando per vari studi grafici e come freelance, per
-              poi fare esperienze in vari settori come Retail Sales Manager e
-              operatore di Informatica sanitaria A Novembre 2022, intraprende il
-              percorso di formazione con Boolean come Fullstack Web Developer
-              inseguendo la sua passione per il codice.
+              Questa sezione e' uno showroom di tutti i lavori fatti
+              nell'esperienza di Gabriele sin dal primo giorno di formazione da
+              sviluppatore Web. Qui troverai senza filtri i lavori fatti, sia
+              nel bene che nel male!
             </p>
           </div>
         </div>
@@ -46,8 +43,9 @@ export default {};
 }
 
 .aside {
-  // background-color: #FF9678;
+  background-color: #ff9678;
   // width: 40%;
+  z-index: 4;
 }
 
 .content {
@@ -102,7 +100,39 @@ export default {};
 .chisono {
   width: 80%;
 }
-.logopc {
+
+.forge-div {
+  position: relative;
+}
+.hammer {
+  width: 25%;
+  position: absolute;
+  top: 105px;
+  left: 45%;
+
+  animation: hammering 3s linear infinite;
+}
+
+.anvil {
   width: 30%;
+  padding-top: 180px;
+}
+
+@keyframes hammering {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 </style>

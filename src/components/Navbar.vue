@@ -125,7 +125,7 @@ button:active {
   background: linear-gradient(50deg, #ff9578 60%, #41436a 60%);
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   .col-salmon {
   }
   .col-blu {

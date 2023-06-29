@@ -27,7 +27,7 @@
           <div class="d-flex flex-wrap justify-content-center">
             <img
               class="esperienza"
-              src="../../public/images/ESPERIENZA.png"
+              src="../../public/images/experience-rose.png"
               alt=""
             />
           </div>
