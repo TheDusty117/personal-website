@@ -10,7 +10,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 <template>
   <Header />
-  <Main />
+  <router-view></router-view>
+  <!-- <Main /> -->
   <Footer />
 </template>
 

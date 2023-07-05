@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row justify-content-between m-0">
         <div class="btn-logo col-5">
-          <a href="#">
+          <router-link :to="{ name: 'home' }">
             <img
               class="my-logo roseversion"
               src="../../public/images/rose-logo-GDP.png"
@@ -14,7 +14,8 @@
               src="../../public/images/logo-GDP.png"
               alt=""
             />
-          </a>
+          </router-link>
+
           <!-- <button  style="--color:#41436A;--border:2px;--slant:.5em">Button</button> -->
         </div>
 
@@ -31,9 +32,11 @@
               </button>
             </li>
             <li>
-              <button style="--color: #ff9578; --border: 2px; --slant: 0.5em">
-                CV
-              </button>
+              <router-link :to="{ name: 'curriculumvitae' }">
+                <button style="--color: #ff9578; --border: 2px; --slant: 0.5em">
+                  CV
+                </button>
+              </router-link>
             </li>
           </ul>
         </div>
