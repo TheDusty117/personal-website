@@ -1,13 +1,15 @@
 <template>
   <div>
+    <Food4You />
     <Campominato />
-    <Carosello />
+    <!-- <Carosello /> -->
     <Comics />
     <Cargo />
     <Discord />
     <Spotify />
     <Netflix />
     <Whatsapp />
+    <Freelancer />
   </div>
 </template>
 
@@ -20,6 +22,8 @@ import Discord from "./Discord.vue";
 import Spotify from "./Spotify.vue";
 import Netflix from "./Netflix.vue";
 import Whatsapp from "./Whatsapp.vue";
+import Freelancer from "./Freelancer.vue";
+import Food4You from "./Food4You.vue";
 
 export default {
   components: {
@@ -31,6 +35,8 @@ export default {
     Spotify,
     Netflix,
     Whatsapp,
+    Freelancer,
+    Food4You,
   },
 };
 </script>

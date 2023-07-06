@@ -26,6 +26,7 @@ export default {};
 .color {
   // background: linear-gradient(90deg, #ff9678 50%, #41436a 50%);
   background-color: #41436a;
+  padding-top: 200px;
   //   min-height: 1000px;
 }
 .aside {
@@ -37,6 +38,8 @@ export default {};
     width: 100%;
   }
   .proj-title {
+    padding-bottom: 30px;
+
     color: #ff9678;
     font-family: "JetBrains Mono Variable", sans-serif;
     font-weight: 1000;
@@ -47,6 +50,7 @@ export default {};
     font-family: "JetBrains Mono Variable", sans-serif;
     font-weight: 600;
     font-size: 18px;
+    padding-bottom: 30px;
   }
   // background-color: #41436A;
   min-height: 600px;

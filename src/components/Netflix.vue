@@ -4,13 +4,15 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">DC Comics</h2>
+            <h2 class="proj-title">Netflix API</h2>
             <p class="col-12 description project-description">
-              Una replica del sito ufficiale della celebre DC Comics, Creato
-              grazie a VueJs e strutturato in vari componenti, stilizzato con
-              Bootstrap e Sass.
+              Replica di Netflix, dove viene interrogata la fantastica API di
+              "themoviedb". In questo progetto è possibile navigare con la
+              searchbar per trovare qualsiasi film presente nel database, e
+              passando sopra con il puntatore, è possibile vederne
+              individualmente tutte le specifiche del contentuto multimediale.
             </p>
-            <img src="../../public/images/netflix-proj.png" alt="" />
+            <img src="../../public/images/netflixcard-proj.png" alt="" />
           </div>
         </div>
       </div>
@@ -26,6 +28,8 @@ export default {};
 .color {
   // background: linear-gradient(90deg, #ff9678 50%, #41436a 50%);
   background-color: #41436a;
+  padding-top: 200px;
+
   //   min-height: 1000px;
 }
 .aside {
@@ -37,6 +41,8 @@ export default {};
     width: 100%;
   }
   .proj-title {
+    padding-bottom: 30px;
+
     color: #ff9678;
     font-family: "JetBrains Mono Variable", sans-serif;
     font-weight: 1000;
@@ -46,6 +52,7 @@ export default {};
     color: #41436a;
     font-family: "JetBrains Mono Variable", sans-serif;
     font-weight: 600;
+    padding-bottom: 30px;
     font-size: 18px;
   }
   // background-color: #41436A;

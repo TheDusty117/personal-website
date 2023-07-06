@@ -4,11 +4,11 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">DC Comics</h2>
+            <h2 class="proj-title">Campominato</h2>
             <p class="col-12 description project-description">
-              Una replica del sito ufficiale della celebre DC Comics, Creato
-              grazie a VueJs e strutturato in vari componenti, stilizzato con
-              Bootstrap e Sass.
+              Il gioco del Campominato! Un grande classico, realizzato in html,
+              css e JavaScript. Completamente interattivo e in stile Giappone
+              Feudale!
             </p>
             <img src="../../public/images/campominato-proj.png" alt="" />
           </div>
@@ -26,6 +26,7 @@ export default {};
 .color {
   // background: linear-gradient(90deg, #ff9678 50%, #41436a 50%);
   background-color: #41436a;
+  padding-top: 200px;
   //   min-height: 1000px;
 }
 .aside {
@@ -37,6 +38,8 @@ export default {};
     width: 100%;
   }
   .proj-title {
+    padding-bottom: 30px;
+
     color: #ff9678;
     font-family: "JetBrains Mono Variable", sans-serif;
     font-weight: 1000;

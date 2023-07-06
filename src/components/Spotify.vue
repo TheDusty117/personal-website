@@ -4,11 +4,11 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">DC Comics</h2>
+            <h2 class="proj-title">Spotify</h2>
             <p class="col-12 description project-description">
-              Una replica del sito ufficiale della celebre DC Comics, Creato
-              grazie a VueJs e strutturato in vari componenti, stilizzato con
-              Bootstrap e Sass.
+              Una replica di Spotify Web, utilizzando html e css vanilla,
+              implementato inoltre, le media query per la sua versione
+              responsive.
             </p>
             <img src="../../public/images/spoty-proj.png" alt="" />
           </div>
@@ -26,6 +26,8 @@ export default {};
 .color {
   // background: linear-gradient(90deg, #ff9678 50%, #41436a 50%);
   background-color: #41436a;
+  padding-top: 200px;
+
   //   min-height: 1000px;
 }
 .aside {
@@ -37,6 +39,8 @@ export default {};
     width: 100%;
   }
   .proj-title {
+    padding-bottom: 30px;
+
     color: #ff9678;
     font-family: "JetBrains Mono Variable", sans-serif;
     font-weight: 1000;
@@ -46,6 +50,7 @@ export default {};
     color: #41436a;
     font-family: "JetBrains Mono Variable", sans-serif;
     font-weight: 600;
+    padding-bottom: 30px;
     font-size: 18px;
   }
   // background-color: #41436A;
