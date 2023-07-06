@@ -20,10 +20,9 @@
             />
 
             <p class="col-12 description">
-              Questa sezione e' uno showroom di tutti i lavori fatti
-              nell'esperienza di Gabriele sin dal primo giorno di formazione da
-              sviluppatore Web. Qui troverai senza filtri i lavori fatti, sia
-              nel bene che nel male!
+              Questa sezione e' uno showroom di alcuni dei lavori fatti fino ad
+              ora, questa parte verrà aggiornata di continuo con tutti i nuovi
+              progetti!
             </p>
           </div>
         </div>
