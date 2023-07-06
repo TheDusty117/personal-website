@@ -10,7 +10,7 @@
               grazie a VueJs e strutturato in vari componenti, stilizzato con
               Bootstrap e Sass.
             </p>
-            <img src="../../public/images/dc-comics-def.png" alt="" />
+            <img src="../../public/images/dc-comics-proj.png" alt="" />
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@ export default {};
 }
 .content {
   img {
-    width: 70%;
+    width: 100%;
   }
   .proj-title {
     color: #ff9678;

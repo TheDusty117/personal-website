@@ -10,7 +10,7 @@
               grazie a VueJs e strutturato in vari componenti, stilizzato con
               Bootstrap e Sass.
             </p>
-            <img src="../../public/images/campominato-proj.png" alt="" />
+            <img src="../../public/images/discord-card.png" alt="" />
           </div>
         </div>
       </div>
