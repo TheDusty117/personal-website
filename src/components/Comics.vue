@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">DC Comics</h2>
+            <h2 class="proj-title">
+              DC Comics
+              <font-awesome-icon icon="fa-solid fa-comment-dots" />
+            </h2>
             <p class="col-12 description project-description">
               Una replica del sito ufficiale della celebre DC Comics, Creato
               grazie a VueJs e strutturato in vari componenti, stilizzato con

@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">Food 4 You</h2>
+            <h2 class="proj-title">
+              Food 4 You
+              <font-awesome-icon icon="fa-solid fa-burger" />
+            </h2>
             <p class="col-12 description project-description">
               Un progetto realizzato in team, mettendo a frutto tutto cio'
               imparato lato Frontend e Backend. Applicativo per il food
@@ -12,7 +15,7 @@
               responsive, animazioni, un backend strutturato con un database,
               gestione del ristoratore e dei piatti disponibili e molto altro!
             </p>
-            <img src="../../public/images/food4you-proj.png" alt="" />
+            <img src="../../public/images/food4-proj.png" alt="" />
           </div>
         </div>
       </div>
@@ -27,7 +30,7 @@ export default {};
 <style lang="scss" scoped>
 .color {
   // background: linear-gradient(90deg, #ff9678 50%, #41436a 50%);
-  padding-top: 200px;
+  padding-top: 20px;
   background-color: #41436a;
   //   min-height: 1000px;
 }

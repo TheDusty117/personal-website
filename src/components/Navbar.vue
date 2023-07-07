@@ -1,12 +1,12 @@
 <template>
   <div class="section">
     <div class="container">
-      <div class="row justify-content-between m-0">
+      <div class="row justify-content-between m-0 row-main">
         <div class="btn-logo col-5">
           <router-link :to="{ name: 'home' }">
             <img
               class="my-logo roseversion"
-              src="../../public/images/rose-logo-GDP.png"
+              src="../../public/images/rose-dark-sun.png"
               alt=""
             />
             <img
@@ -19,18 +19,45 @@
           <!-- <button  style="--color:#41436A;--border:2px;--slant:.5em">Button</button> -->
         </div>
 
-        <div class="col-5">
-          <ul class="button-bar d-flex justify-content-sm-end gap-4 p-0 m-0">
+        <div class="options col-5">
+          <ul class="button-bar d-flex justify-content-sm-end gap-sm-4 p-0 m-0">
+            <li class="li-home">
+              <router-link :to="{ name: 'home' }">
+                <img
+                  class="sun-home d-sm-none"
+                  src="../../public/images/dark-sun.png"
+                  alt=""
+                />
+              </router-link>
+            </li>
+            <li>
+              <a href="https://github.com/TheDusty117?tab=repositories">
+                <font-awesome-icon
+                  class="icon-color"
+                  icon="fa-brands fa-github"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://it.linkedin.com/in/gabriele-di-passio-b3446b276?trk=public_profile_browsemap"
+              >
+                <font-awesome-icon
+                  class="icon-color"
+                  icon="fa-brands fa-linkedin"
+                />
+              </a>
+            </li>
             <li>
               <button style="--color: #ff9578; --border: 2px; --slant: 0.5em">
                 Lavori
               </button>
             </li>
-            <li>
+            <!-- <li>
               <button style="--color: #ff9578; --border: 2px; --slant: 0.5em">
                 Contatti
               </button>
-            </li>
+            </li> -->
             <li>
               <router-link :to="{ name: 'curriculumvitae' }">
                 <button style="--color: #ff9578; --border: 2px; --slant: 0.5em">
@@ -50,6 +77,10 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+.icon-color {
+  color: #ff9578;
+  font-size: 36px;
+}
 .container {
   font-family: "JetBrains Mono Variable", sans-serif;
 }
@@ -125,7 +156,7 @@ button:active {
   color: #ff957800;
 }
 .section {
-  background: linear-gradient(50deg, #ff9578 60%, #41436a 60%);
+  background: linear-gradient(50deg, #ff9578 50%, #41436a 50%);
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -138,7 +169,27 @@ button:active {
 }
 
 @media screen and (max-width: 577px) {
+  .row-main {
+    justify-content: center;
+  }
+
   .btn-logo {
+    width: 50%;
+    justify-content: center;
+    display: none;
+  }
+  .options {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .button-bar {
+    row-gap: 5;
+  }
+
+  .sun-home {
+    padding-top: 3px;
+    width: 33px;
   }
 }
 

@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">Discord</h2>
+            <h2 class="proj-title">
+              Discord
+              <font-awesome-icon icon="fa-brands fa-discord" />
+            </h2>
             <p class="col-12 description project-description">
               Replica della pagina ufficiale di Discord, creata per sperimentare
               le capacità di flexbox.

@@ -1,5 +1,7 @@
 <template>
-  <CvCard />
+  <section>
+    <CvCard />
+  </section>
 </template>
 
 <script>
@@ -12,4 +14,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+section {
+  background-image: url(../../public/images/MONTAGNE.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>

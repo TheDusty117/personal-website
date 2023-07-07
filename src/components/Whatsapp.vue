@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">Whatsapp</h2>
+            <h2 class="proj-title">
+              Whatsapp
+              <font-awesome-icon icon="fa-brands fa-whatsapp" />
+            </h2>
             <p class="col-12 description project-description">
               Replica di Whatsapp, strutturando il progetto con JavaScript,
               rendendo i vari contatti della rubrica automatizzati e

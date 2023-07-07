@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">Freelance Responsive Bootstrap</h2>
+            <h2 class="proj-title">
+              Freelance Responsive
+              <font-awesome-icon icon="fa-solid fa-user-ninja" />
+            </h2>
             <p class="col-12 description project-description">
               Un layout semplice e minimale, utilizzato per sperimentare e
               navigare tra le varie funzionalità di Bootstrap, creando un layout

@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">Spotify</h2>
+            <h2 class="proj-title">
+              Spotify
+              <font-awesome-icon icon="fa-brands fa-spotify" />
+            </h2>
             <p class="col-12 description project-description">
               Una replica di Spotify Web, utilizzando html e css vanilla,
               implementato inoltre, le media query per la sua versione

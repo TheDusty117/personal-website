@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">Campominato</h2>
+            <h2 class="proj-title">
+              Campominato
+              <font-awesome-icon icon="fa-solid fa-bomb" />
+            </h2>
             <p class="col-12 description project-description">
               Il gioco del Campominato! Un grande classico, realizzato in html,
               css e JavaScript. Completamente interattivo e in stile Giappone

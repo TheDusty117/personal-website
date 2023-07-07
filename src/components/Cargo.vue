@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">Cargo Project</h2>
+            <h2 class="proj-title">
+              Cargo Project
+              <font-awesome-icon icon="fa-solid fa-truck" />
+            </h2>
             <p class="col-12 description project-description">
               Replica di una pagina di Cargo Transportation, realizzata in
               VueJs, Sass e Bootstrap.

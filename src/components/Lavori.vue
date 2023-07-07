@@ -47,12 +47,15 @@ export default {
   //   min-height: 1000px;
 }
 .aside {
+  padding-top: 100px;
   background-color: #ff9678;
   // width: 40%;
   z-index: 4;
 }
 .content {
   // background-color: #41436A;
+  padding-top: 100px;
+
   min-height: 600px;
   // width: 60%;
   p {
@@ -109,7 +112,7 @@ export default {
 .hammer {
   width: 25%;
   position: absolute;
-  bottom: 405px;
+  bottom: 309px;
   left: 45%;
 
   animation: hammering 2.5s linear infinite;

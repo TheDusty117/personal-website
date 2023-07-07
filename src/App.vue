@@ -19,8 +19,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 @use "./style/general.scss" as *;
 
 body {
-  // background-color: rgb(107, 107, 107);
-  background: linear-gradient(180deg, #ff9678 50%, #41436a 50%);
+  background-color: #ff9578;
+  // background: linear-gradient(180deg, #ff9678 50%, #41436a 50%);
 
   scroll-behavior: smooth;
 }

@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="content col-12 row justify-content-center">
-            <h2 class="proj-title">Netflix API</h2>
+            <h2 class="proj-title">
+              Netflix API
+              <font-awesome-icon icon="fa-solid fa-film" />
+            </h2>
             <p class="col-12 description project-description">
               Replica di Netflix, dove viene interrogata la fantastica API di
               "themoviedb". In questo progetto è possibile navigare con la
