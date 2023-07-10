@@ -4,7 +4,6 @@
   <Esperienza></Esperienza>
   <Lavori></Lavori>
   <Projects></Projects>
-  <Cargo></Cargo>
 </template>
 
 <script>

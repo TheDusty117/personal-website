@@ -30,6 +30,15 @@
               src="../../public/images/experience-rose.png"
               alt=""
             />
+            <p class="p-rose">
+              Dopo aver frequentato l’indirizzo di Grafica del Liceo Artistico
+              A. Giulio Bragaglia, inizia a lavorare e fare esperienza come
+              Graphic Designer, lavorando per vari studi Grafici, per poi
+              maturare esperienze nel mondo del Retail Sales Management e
+              Informatica Sanitaria. Nel Novembre 2022 inizia il suo percorso
+              come Fullstack Web Developer con Boolean, completato nel Giugno
+              2023.
+            </p>
           </div>
         </div>
       </div>
@@ -102,6 +111,10 @@ export default {};
   font-weight: 600;
 }
 
+.p-rose {
+  display: none;
+}
+
 .chisono {
   width: 100%;
 }
@@ -110,6 +123,25 @@ export default {};
 }
 
 @media screen and (max-width: 850px) {
+  .aside {
+    position: relative;
+    // background-color: #FF9678;
+    width: 50%;
+    .montagne {
+      width: 100%;
+      left: 0px;
+      bottom: 0px;
+      position: absolute;
+      z-index: 2;
+    }
+    .sole {
+      width: 60%;
+      position: absolute;
+      bottom: -60px;
+      left: 10%;
+    }
+  }
+
   .aside {
     width: 100%;
     background-color: #ff9678;
@@ -123,6 +155,13 @@ export default {};
 
   .double-color {
     background: linear-gradient(180deg, #ff957800 40%, #41436a00 40%);
+  }
+
+  .p-blue {
+    display: none;
+  }
+  .p-rose {
+    display: inline-block;
   }
 }
 </style>

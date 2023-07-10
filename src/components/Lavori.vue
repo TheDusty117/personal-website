@@ -93,6 +93,7 @@ export default {
   }
 
   .content {
+    // text-align: center;
     width: 100%;
     background-color: #41436a;
   }

@@ -81,6 +81,9 @@ export default {};
   }
 }
 
+@media screen and (max-width: 400px) {
+}
+
 @media screen and (max-width: 550px) {
   .hero {
     background-image: url("../../public/images/HERO SMARTPHONE.png");
