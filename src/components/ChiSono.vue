@@ -5,7 +5,7 @@
         <div class="aside col-6">
           <img
             class="chisono pt-5"
-            src="../../public/images/CHI SONO.png"
+            src="../../public/images/CHI-SONO.png"
             alt=""
           />
         </div>
