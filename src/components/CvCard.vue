@@ -8,7 +8,7 @@
     <div class="img-wrapper">
       <img
         class="cv-img"
-        src="../../public/images/Gabriele Di Passio CV 2023.png"
+        src="../../public/images/Gabriele-Di-Passio CV 2023.png"
         alt=""
       />
     </div>
