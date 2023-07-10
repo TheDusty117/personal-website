@@ -15,19 +15,73 @@
               responsive, animazioni, un backend strutturato con un database,
               gestione del ristoratore e dei piatti disponibili e molto altro!
             </p>
-            <img src="../../public/images/food4-proj.png" alt="" />
+            <img
+              class="visualize-img"
+              src="../../public/images/food4-proj.png"
+              alt=""
+              @click="showFullScreenImage"
+            />
           </div>
         </div>
       </div>
     </section>
+    <div
+      v-if="showImageFullScreen"
+      class="fullscreen-overlay"
+      @click="closeFullScreenImage"
+    >
+      <img
+        class="fullscreen-image"
+        src="../../public/images/food4-proj.png"
+        alt=""
+      />
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      showImageFullScreen: false,
+    };
+  },
+  methods: {
+    showFullScreenImage() {
+      this.showImageFullScreen = true;
+    },
+    closeFullScreenImage() {
+      this.showImageFullScreen = false;
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
+//INIZIO CLICK ON IMAGE TO VISUALIZE
+.visualize-img {
+  cursor: pointer;
+}
+
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.fullscreen-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+//FINE CLICK ON IMAGE TO VISUALIZE
 .color {
   // background: linear-gradient(90deg, #ff9678 50%, #41436a 50%);
   padding-top: 20px;
