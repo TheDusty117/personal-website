@@ -5,11 +5,13 @@
         <Button />
       </a>
     </h2>
-    <img
-      class="cv-img"
-      src="../../public/images/Gabriele Di Passio CV 2023.png"
-      alt=""
-    />
+    <div class="img-wrapper">
+      <img
+        class="cv-img"
+        src="../../public/images/Gabriele Di Passio CV 2023.png"
+        alt=""
+      />
+    </div>
   </div>
 </template>
 

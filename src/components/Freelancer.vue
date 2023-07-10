@@ -84,6 +84,7 @@ export default {
   // background: linear-gradient(90deg, #ff9678 50%, #41436a 50%);
   background-color: #41436a;
   padding-top: 200px;
+  padding-bottom: 400px;
 
   //   min-height: 1000px;
 }

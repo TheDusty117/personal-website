@@ -84,7 +84,7 @@ export default {
 //FINE CLICK ON IMAGE TO VISUALIZE
 .color {
   // background: linear-gradient(90deg, #ff9678 50%, #41436a 50%);
-  padding-top: 20px;
+  padding-top: 80px;
   background-color: #41436a;
   //   min-height: 1000px;
 }

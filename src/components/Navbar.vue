@@ -50,7 +50,7 @@
             </li>
             <li>
               <button style="--color: #ff9578; --border: 2px; --slant: 0.5em">
-                Lavori
+                <a href="#works"> Lavori </a>
               </button>
             </li>
             <!-- <li>

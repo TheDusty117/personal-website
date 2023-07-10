@@ -1,5 +1,5 @@
 <template>
-  <section class="double-color">
+  <section id="works" class="double-color">
     <div class="container">
       <div class="row">
         <div class="aside col-6">
