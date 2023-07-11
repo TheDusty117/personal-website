@@ -3,7 +3,8 @@
     <div class="container">
       <div class="row justify-content-between m-0 row-main">
         <div class="btn-logo col-5">
-          <router-link :to="{ name: 'home' }">
+          <!-- <a href="#"></a> -->
+          <router-link @click="scrollTop()" :to="{ name: 'home' }">
             <img
               class="my-logo roseversion"
               src="../../public/images/rose-dark-sun.png"
@@ -73,7 +74,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollTop() {
+      window.scrollTo(0, this.top);
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>

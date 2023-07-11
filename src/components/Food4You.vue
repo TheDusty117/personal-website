@@ -10,10 +10,11 @@
             </h2>
             <p class="col-12 description project-description">
               Un progetto realizzato in team, mettendo a frutto tutto cio'
-              imparato lato Frontend e Backend. Applicativo per il food
-              delivery, realizzato con grafiche e loghi fatti da 0, un layout
-              responsive, animazioni, un backend strutturato con un database,
-              gestione del ristoratore e dei piatti disponibili e molto altro!
+              imparato lato Frontend (VueJS) e Backend(Laravel). Applicativo per
+              il food delivery, realizzato con grafiche e loghi fatti da 0, un
+              layout responsive, animazioni, un backend strutturato con
+              database, gestione del ristoratore e dei piatti disponibili,
+              carrello e molte altre funzionalità!
             </p>
             <img
               class="visualize-img"

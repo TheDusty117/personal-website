@@ -11,8 +11,8 @@
             <p class="col-12 description project-description">
               Replica di Whatsapp, strutturando il progetto con JavaScript,
               rendendo i vari contatti della rubrica automatizzati e
-              interattivi, infatti i contatti risponderanno diversi secondi alle
-              nostre risposte in chat!
+              interattivi, infatti i contatti risponderanno alle nostre risposte
+              in chat!
             </p>
             <img
               class="visualize-img"

@@ -21,12 +21,7 @@
               Gabriele Di Passio è un Jr. Front End Web Developer, Graphic
               Designer e Tech enthusiast del Frusinate. Gabriele persegue la sua
               passione per il codice e per il design, cercando una continua
-              unione dei due mondi. Inizia il suo percorso come Graphic Designer
-              dal liceo, lavorando per vari studi grafici e come freelance, per
-              poi fare esperienze in vari settori come Retail Sales Manager e
-              operatore di Informatica sanitaria A Novembre 2022, intraprende il
-              percorso di formazione con Boolean come Fullstack Web Developer
-              inseguendo la sua passione per il codice.
+              unione dei due mondi.
             </p>
           </div>
         </div>
