@@ -23,7 +23,7 @@ export default {
   },
   data() {
     return {
-      pdfUrl: "../../images/Gabriele-Di-Passio-CV-2023.pdf", // Assicurati di sostituire "nome_del_tuo_file.pdf" con il nome del tuo file PDF reale
+      pdfUrl: "./images/Gabriele-Di-Passio-CV-2023.pdf", // Assicurati di sostituire "nome_del_tuo_file.pdf" con il nome del tuo file PDF reale
     };
   },
 };
