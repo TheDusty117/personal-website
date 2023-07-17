@@ -23,7 +23,7 @@
         <div class="options col-5">
           <ul class="button-bar d-flex justify-content-sm-end gap-sm-4 p-0 m-0">
             <li class="li-home">
-              <router-link :to="{ name: 'home' }">
+              <router-link @click="scrollTop()" :to="{ name: 'home' }">
                 <img
                   class="sun-home d-sm-none"
                   src="../../public/images/dark-sun.png"
@@ -60,7 +60,10 @@
               </button>
             </li> -->
             <li>
-              <router-link :to="{ name: 'curriculumvitae' }">
+              <router-link
+                @click="scrollTop()"
+                :to="{ name: 'curriculumvitae' }"
+              >
                 <button style="--color: #ff9578; --border: 2px; --slant: 0.5em">
                   CV
                 </button>
